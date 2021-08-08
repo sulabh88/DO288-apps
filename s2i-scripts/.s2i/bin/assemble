@@ -15,8 +15,9 @@ cp -Rf /tmp/src/*.html ./
 
 DATE2=`date`
 echo "$DATE2 hola sunny" >> ./info.html
-
+echo "my name is sunny hello there ............." >> ./index.html	
 echo "---> Creating info page"
+echo "this is info" >> ./info.html
 echo "Page built on $DATE" >> ./info.html
 echo "Proudly served by Apache HTTP Server version $HTTPD_VERSION" >> ./info.html
 
